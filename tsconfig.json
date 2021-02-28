@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
+        "baseUrl": "src",
         "target": "ES5",
         "module": "CommonJS",
         "jsx": "react",
+        "lib": ["DOM", "ES2019"],
         "sourceMap": true,
         "outDir": "./dist",
         "removeComments": true,
